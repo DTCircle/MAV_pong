@@ -66,6 +66,8 @@ export const createRackets = async (scene) => {
   );
   racket1Aggregate.body.disablePreStep = false;
   racket2Aggregate.body.disablePreStep = false;
+  
+  setRacketColor(racket2, BABYLON.Color3.Red());
 };
 
 /**
